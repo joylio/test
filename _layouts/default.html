@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hello!!!!</title>
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 
 <body>
@@ -11,14 +12,7 @@
 	<h1>Haha my first Jekyll webiste</h1>
 	{% include nav.html %}
 </header>
-	<!-- {{content}} -->
-	{% include index.html %}
+	{{content}}
 </body>
-<style>
-	body {
-		background-color:black;
-		color:white;
-		text-align:center;
-	}
-</style>
+
 </html>
