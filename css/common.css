@@ -9,3 +9,9 @@ h1
 {
 	font: normal 100%/1.4 Georgia, serif;
 }
+
+.navlink
+{
+	background-color: white;
+	color: red;
+}
